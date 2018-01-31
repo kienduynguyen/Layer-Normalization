@@ -5,8 +5,8 @@ from __future__ import division
 
 import torch
 import torch.nn as nn
-import torch.nn.parameter as Parameter
 
+from torch.nn.parameter import Parameter
 from torch.autograd import Function
 from math import sqrt
 
