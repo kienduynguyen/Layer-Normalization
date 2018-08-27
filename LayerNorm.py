@@ -7,8 +7,7 @@ import torch
 import torch.nn as nn
 
 from torch.nn.parameter import Parameter
-from torch.autograd import Function
-from torch.autograd import Variable, gradcheck
+from torch.autograd import Function, Variable, gradcheck
 from math import sqrt
 
 
